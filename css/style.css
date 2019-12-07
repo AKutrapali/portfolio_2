@@ -1,0 +1,535 @@
+@font-face {
+  font-family: "FuturaDemiCRegular";
+  src: url("../assets/fonts/FuturaDemiCRegular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FuturaBookC";
+  src: url("../assets/fonts/Futurabookc.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
+  background-color: #bdbdbd;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: "FuturaBookC";
+  font-size: 33px;
+  line-height: 30px;
+}
+
+a {
+  all: unset;
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .container {
+    font-size: 23px;
+    line-height: 23px;
+  }
+
+  .wrapper {
+    padding-bottom: 0px;
+  }
+}
+.wrapper_mobile {
+  width: 450px;
+}
+.wrapper_mobile .container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.wrapper_mobile .container {
+  font-size: 23px;
+  line-height: 23px;
+}
+.wrapper_mobile .wrapper {
+  padding-bottom: 0px;
+}
+
+header .container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 3% 0;
+  border-bottom: 4px solid #696868;
+}
+header .container .avatar {
+  border-radius: 150px;
+  border: 2px solid #696868;
+  overflow: hidden;
+  margin-right: 10%;
+  margin-top: 30px;
+}
+header .container .avatar img {
+  width: 300px;
+  height: 300px;
+}
+header .container .name_contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-items: flex-start;
+}
+header .container .name_contacts h1 {
+  font-family: "FuturaBookC";
+  font-size: 45px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+header .container .name_contacts .git_hub {
+  all: unset;
+  background-color: #696868;
+  color: white;
+  border-radius: 33px;
+  text-align: center;
+  font-family: "FuturaDemiCRegular";
+  font-size: 30px;
+  padding: 20px 45px;
+  cursor: pointer;
+  width: 140px;
+  margin: 35px 0;
+}
+header .container .name_contacts .git_hub:hover {
+  background-color: #c7c0c0;
+  color: black;
+}
+
+@media screen and (max-width: 850px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  header .container .name_contacts {
+    text-align: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  header .container .avatar {
+    margin-right: 0;
+  }
+  header .container .avatar img {
+    width: 200px;
+    height: 200px;
+  }
+  header .container .name_contacts {
+    width: 100%;
+  }
+  header .container .name_contacts h1 {
+    font-size: 30px;
+  }
+  header .container .name_contacts p {
+    margin: 12px 0;
+  }
+  header .container .name_contacts .git_hub {
+    background-color: #414141;
+    border-radius: 9px;
+    font-size: 23px;
+    padding: 12px 0;
+    width: 80%;
+  }
+}
+.wrapper_mobile header .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.wrapper_mobile header .container .avatar {
+  margin-right: 0;
+}
+.wrapper_mobile header .container .avatar img {
+  width: 200px;
+  height: 200px;
+}
+.wrapper_mobile header .container .name_contacts {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.wrapper_mobile header .container .name_contacts h1 {
+  font-size: 30px;
+}
+.wrapper_mobile header .container .name_contacts p {
+  margin: 12px 0;
+}
+.wrapper_mobile header .container .name_contacts .git_hub {
+  background-color: #414141;
+  border-radius: 9px;
+  font-size: 23px;
+  padding: 12px 0;
+  width: 80%;
+}
+
+.education .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.education .container .title {
+  font-size: 38px;
+  border-bottom: 4px solid #696868;
+  width: 100%;
+  cursor: pointer;
+}
+.education .container .title p {
+  padding: 56px 20px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-weight: bold;
+}
+.education .container .title :hover {
+  background-color: #696868;
+  color: white;
+}
+.education .container .active {
+  background-color: #696868;
+  color: white;
+}
+.education .container .content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: none;
+  border-bottom: 4px solid #696868;
+  width: 100%;
+}
+.education .container .content ul li {
+  margin: 29px 0;
+}
+
+.project .container {
+  border-bottom: 4px solid #696868;
+}
+.project .container .proect_title {
+  font-weight: bold;
+  height: 141px;
+  display: flex;
+  align-items: center;
+}
+.project .container p {
+  font-size: 38px;
+  padding-left: 20px;
+}
+.project .container .carousel_container {
+  border-top: 1px solid #696868;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+.project .container .carousel_container .carousel_left, .project .container .carousel_container .carousel_right {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 33px;
+  height: 58px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #696868;
+}
+.project .container .carousel_container .carousel_left img, .project .container .carousel_container .carousel_right img {
+  margin: auto 0;
+}
+.project .container .carousel_container .carousel_left:hover, .project .container .carousel_container .carousel_right:hover {
+  background-color: #c7c0c0;
+  color: black;
+}
+.project .container .carousel_container .carousel_left {
+  left: 0%;
+}
+.project .container .carousel_container .carousel_right {
+  right: 0%;
+}
+.project .container .carousel_container .main_container {
+  position: relative;
+  width: 94%;
+  overflow: hidden;
+}
+.project .container .carousel_container .main_container .carousel {
+  position: relative;
+  left: 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+}
+.project .container .carousel_container .main_container .carousel_button {
+  z-index: 100;
+  all: unset;
+  background-color: #696868;
+  color: white;
+  border-radius: 33px;
+  text-align: center;
+  font-family: "FuturaDemiCRegular";
+  font-size: 30px;
+  padding: 20px 45px;
+  cursor: pointer;
+  width: 140px;
+  display: none;
+}
+.project .container .carousel_container .main_container .carousel_button:hover {
+  background-color: #c7c0c0;
+  color: black;
+}
+.project .container .carousel_container .main_container .carousel .carousel_item {
+  transition: all ease 1s;
+  flex: 1 0 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 52px 0;
+}
+.project .container .carousel_container .main_container .carousel .carousel_item .carousel_text {
+  display: block;
+  width: 50%;
+  padding: 0 4%;
+}
+.project .container .carousel_container .main_container .carousel .carousel_item .carousel_images {
+  cursor: pointer;
+  width: 50%;
+  padding: 0 4%;
+}
+.project .container .carousel_container .main_container .carousel .carousel_item .carousel_images a {
+  width: 100%;
+}
+.project .container .carousel_container .main_container .carousel .carousel_item .carousel_images a img {
+  width: 100%;
+}
+
+.buttons .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+.buttons .container .buttons2 {
+  padding-right: 9%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 40px;
+}
+.buttons .container .buttons2 .buttons_mobile_version, .buttons .container .buttons2 .buttons_back {
+  all: unset;
+  background-color: #696868;
+  color: white;
+  border-radius: 33px;
+  text-align: center;
+  font-family: "FuturaDemiCRegular";
+  font-size: 30px;
+  padding: 20px 45px;
+  cursor: pointer;
+  width: 140px;
+  margin: 20px 0;
+}
+.buttons .container .buttons2 .buttons_mobile_version:hover, .buttons .container .buttons2 .buttons_back:hover {
+  background-color: #c7c0c0;
+  color: black;
+}
+.buttons .container .buttons2 .buttons_back a p {
+  margin: 0;
+}
+
+@media screen and (max-width: 850px) {
+  .carousel_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .project .container .carousel_container .main_container .carousel .carousel_item .carousel_text {
+    width: 83%;
+  }
+  .project .container .carousel_container .main_container .carousel .carousel_item .carousel_images {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .education .container .title p {
+    padding: 22px 20px;
+    font-size: 30px;
+  }
+
+  .project .container .proect_title {
+    height: 71px;
+  }
+  .project .container .proect_title p {
+    font-size: 30px;
+  }
+  .project .container .carousel_container .carousel_left, .project .container .carousel_container .carousel_right {
+    display: none;
+  }
+  .project .container .carousel_container .main_container {
+    margin-top: 30px;
+  }
+  .project .container .carousel_container .main_container .carousel {
+    position: relative;
+  }
+  .project .container .carousel_container .main_container .carousel_button {
+    z-index: 100;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    background-color: #414141;
+    border-radius: 9px;
+    font-size: 23px;
+    padding: 12px 0;
+    width: 80%;
+  }
+  .project .container .carousel_container .main_container .carousel .carousel_item .carousel_text {
+    display: none;
+  }
+  .project .container .carousel_container .main_container .carousel .carousel_item .carousel_text p {
+    font-size: 23px;
+    padding: 0;
+  }
+  .project .container .carousel_container .main_container .carousel .carousel_item .carousel_images {
+    margin-top: 30px;
+  }
+
+  .buttons .container {
+    padding-bottom: 19px;
+    margin-bottom: 0;
+  }
+  .buttons .container .buttons2 {
+    padding-right: 0%;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+  }
+  .buttons .container .buttons2 .buttons_mobile_version, .buttons .container .buttons2 .buttons_back {
+    background-color: #414141;
+    border-radius: 9px;
+    font-size: 23px;
+    padding: 12px 0;
+    width: 80%;
+    margin: 20px 0;
+  }
+}
+#but_mob {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  background-color: 1;
+}
+
+.wrapper_mobile .education .container .title p {
+  padding: 22px 20px;
+  font-size: 30px;
+}
+.wrapper_mobile .project .container .proect_title {
+  height: 71px;
+}
+.wrapper_mobile .project .container .proect_title p {
+  font-size: 30px;
+}
+.wrapper_mobile .project .container .carousel_container .carousel_left, .wrapper_mobile .project .container .carousel_container .carousel_right {
+  display: none;
+}
+.wrapper_mobile .project .container .carousel_container .main_container {
+  margin-top: 30px;
+}
+.wrapper_mobile .project .container .carousel_container .main_container .carousel {
+  position: relative;
+}
+.wrapper_mobile .project .container .carousel_container .main_container .carousel_button {
+  z-index: 100;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 10%;
+  background-color: #414141;
+  border-radius: 9px;
+  font-size: 23px;
+  padding: 12px 0;
+  width: 80%;
+}
+.wrapper_mobile .project .container .carousel_container .main_container .carousel .carousel_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.wrapper_mobile .project .container .carousel_container .main_container .carousel .carousel_item .carousel_text {
+  width: 83%;
+  display: none;
+}
+.wrapper_mobile .project .container .carousel_container .main_container .carousel .carousel_item .carousel_text p {
+  font-size: 23px;
+  padding: 0;
+}
+.wrapper_mobile .project .container .carousel_container .main_container .carousel .carousel_item .carousel_images {
+  width: 70%;
+  margin-top: 30px;
+}
+.wrapper_mobile .buttons .container {
+  padding-bottom: 19px;
+  margin-bottom: 0;
+}
+.wrapper_mobile .buttons .container .buttons2 {
+  padding-right: 0%;
+  align-items: center;
+  padding-top: 20px;
+  width: 100%;
+}
+.wrapper_mobile .buttons .container .buttons2 .buttons_mobile_version, .wrapper_mobile .buttons .container .buttons2 .buttons_back {
+  background-color: #414141;
+  border-radius: 9px;
+  font-size: 23px;
+  padding: 12px 0;
+  width: 80%;
+  margin: 20px 0;
+}
+
+/*# sourceMappingURL=style.css.map */

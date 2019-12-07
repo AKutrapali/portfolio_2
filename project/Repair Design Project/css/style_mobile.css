@@ -1,0 +1,491 @@
+.wrapper {
+  max-width: 500px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header_contacts {
+  display: none;
+}
+
+.header_navigation {
+  width: 65%;
+  padding-right: 10px;
+}
+
+header {
+  max-width: 550px;
+}
+
+header .container {
+  height: 57px;
+}
+
+.header_navigation {
+  display: none;
+}
+
+.header_contacts .request_call {
+  display: none;
+}
+
+.header_contacts .phone {
+  color: white;
+}
+
+footer {
+  display: none;
+}
+
+.main_post .instagram {
+  display: none;
+}
+
+.main_post .scroll_down {
+  display: none;
+}
+
+.main_post .main_post2 {
+  width: 100%;
+  background-image: url(../assets/main_post/image47.png);
+  height: 470px;
+}
+
+.main_post .main_text {
+  position: absolute;
+  width: 88%;
+  left: 7%;
+  top: 14%;
+}
+
+.main_post .main_text .title {
+  font-size: 23px;
+  line-height: 31px;
+}
+
+.main_post .main_text .main_text2 {
+  width: 85%;
+  padding-top: 12px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.main_post .main_text .calculate_submit {
+  flex-direction: column;
+}
+
+.main_post .main_text .calculate_submit .calculate {
+  width: 95%;
+  height: 51px;
+}
+
+.main_post .main_text .calculate_submit .submit {
+  margin-top: 30px;
+  width: 95%;
+  height: 51px;
+  margin-left: 0px;
+}
+
+.completed_project .container {
+  margin: 0 auto;
+  height: auto;
+}
+
+.completed_project .container .cp_text1 {
+  margin-top: 39px;
+  width: 100%;
+  text-align: center;
+}
+
+.completed_project .container .cp_info {
+  width: 100%;
+}
+
+.completed_project .container .cp_info .carousel_buttom {
+  display: none;
+}
+
+.completed_project .container .carousel {
+  width: 100%;
+  position: relative;
+}
+
+.completed_project .container .carousel .carousel_text {
+  display: none;
+}
+
+.completed_project .container .carousel .carousel_images {
+  display: block;
+  overflow: hidden;
+}
+
+.completed_project .container .carousel .carousel_images ul {
+  display: flex;
+}
+.completed_project .container .carousel .carousel_images ul li {
+  width: 100%;
+  flex: 1 0 100%;
+}
+
+.completed_project .container .carousel .carousel_images ul li img {
+  width: 100%;
+}
+
+.videocontol {
+  background-color: #131313;
+  height: 1000px;
+}
+
+.videocontol .container {
+  position: absolute;
+  top: 0;
+  left: 5;
+  height: 100%;
+  width: 90%;
+}
+
+.videocontol .container .video {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.videocontol .container .video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.videocontol .container .video img {
+  margin: auto;
+}
+
+.videocontol .container .video_text {
+  width: 100%;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+}
+
+.videocontol .container .video_forme {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.videocontol .container .video_forme p {
+  color: rgba(94, 93, 93, 0.5);
+}
+
+.videocontol .container .video_forme input {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  border-bottom: 1px solid black;
+  font-family: "FuturaBookC";
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+}
+
+.videocontol .container .video_forme .video_name {
+  width: 100%;
+}
+
+.videocontol .container .video_forme .video_phone {
+  width: 100%;
+}
+
+.videocontol .container .video_forme .submit {
+  margin-top: 40px;
+  height: 51px;
+  width: 100%;
+}
+
+.videocontol .container .video_agree {
+  font-family: "FuturaBookC";
+  font-size: 16px;
+  line-height: 22px;
+  color: #181818;
+}
+
+.types_repair {
+  padding-bottom: 160px;
+  height: auto;
+  margin-top: 0;
+}
+
+.types_repair .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.types_repair .container .tr_supply {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
+  height: 82%;
+}
+
+.types_repair .container .tr_supply .tr_supply1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.types_repair .container .tr_supply .tr_supply1 img {
+  display: block;
+}
+
+.types_repair .container .tr_supply .tr_supply1 .tr_supply2 {
+  position: relative;
+  left: -12%;
+  top: auto;
+  bottom: 127px;
+}
+
+.types_repair .container .tr_supply .tr_supply1 .tr_supply2 .submit {
+  margin-top: 0px;
+}
+
+.stages_form {
+  display: none;
+}
+
+.fantazies {
+  height: 291px;
+  position: relative;
+}
+
+.fantazies .back {
+  display: none;
+}
+
+.fantazies .container {
+  position: absolute;
+  top: -96%;
+  left: 5%;
+  height: 500px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fantazies .container .realize_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.fantazies .container .realize_text .f_title {
+  width: 280px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 30px;
+  padding: 50px 0;
+}
+
+.fantazies .container .realize_text ul {
+  display: none;
+}
+
+.fantazies .container .photo1 {
+  display: none;
+}
+
+.fantazies .container .photo2 {
+  display: none;
+}
+
+.fantazies .container .carousel_images {
+  display: block;
+  overflow: hidden;
+}
+
+.fantazies .container .carousel_images ul {
+  display: flex;
+}
+
+.fantazies .container .carousel_images ul li {
+  width: 100%;
+  flex: 1 0 100%;
+}
+
+.fantazies .container .carousel_images ul li img {
+  width: 100%;
+}
+
+.design_project {
+  background-color: #131313;
+  height: auto;
+}
+
+.design_project .container {
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.design_project .container .design_title {
+  padding-top: 0px;
+  padding-bottom: 60px;
+  font-size: 23px;
+  color: white;
+}
+
+.design_project .container .design_text {
+  display: none;
+}
+
+.design_project .container .design_supply {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.design_project .container .design_supply .design_supply1 {
+  position: relative;
+  width: 100%;
+  align-items: end;
+  max-width: 392px;
+}
+
+.design_project .container .design_supply .design_supply1 img {
+  max-width: 100%;
+}
+
+.design_project .container .design_supply .design_supply1 .design_supply2 {
+  position: relative;
+  left: 0%;
+  top: -133px;
+  width: 70%;
+}
+
+.steps {
+  display: none;
+}
+
+.our_team {
+  height: auto;
+}
+
+.our_team .container .ot_title {
+  text-align: center;
+}
+
+.our_team .container .ot_text {
+  width: 100%;
+  margin: 50px auto 60px;
+}
+
+.our_team .container .ot_supply {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.our_team .container .ot_supply .ot_supply1 {
+  position: relative;
+  width: 100%;
+}
+
+.our_team .container .ot_supply .ot_supply1 .ot_photo_logo {
+  position: relative;
+}
+
+.our_team .container .ot_supply .ot_supply1 .ot_photo_logo .photo {
+  max-width: 100%;
+}
+
+.our_team .container .ot_supply .ot_supply1 .ot_supply2 {
+  position: relative;
+  left: 0%;
+  top: -67px;
+}
+
+.our_team .container .ot_text2 {
+  display: none;
+}
+
+.our_clients {
+  display: none;
+}
+
+.form_map {
+  height: auto;
+}
+
+.form_map .container {
+  margin-top: 0px;
+}
+
+.form_map .container .form {
+  width: 100%;
+  background-color: #131313;
+}
+
+.form_map .container .form .submit {
+  width: 100%;
+}
+
+.form_map .container .form .name_phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.form_map .container .form .name_phone .fm_name, .form_map .container .form .name_phone .fm_phone {
+  width: 100%;
+}
+
+.form_map .container .form .name_phone .fm_name input, .form_map .container .form .name_phone .fm_phone input {
+  width: 100%;
+}
+
+.form_map .container .form .fm_question {
+  width: 100%;
+}
+
+.form_map .container .form .fm_question input {
+  width: 100%;
+}
+
+.form_map .container .fm_text {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.form_map .container .map {
+  max-width: 100%;
+  margin: 30px 0 0 0;
+}
+
+.form_map .container .map img {
+  max-width: 100%;
+}

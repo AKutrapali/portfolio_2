@@ -1,0 +1,305 @@
+
+.sect2ul,
+.carousel_text {
+    display: none;
+}
+
+.carousel_container .main_container {
+    margin-top: 0;
+    padding: 0;
+}
+
+.carousel_image1 {
+    width: 100%;
+}
+
+.hlogotext {
+    display: none;
+}
+
+.sect13 {
+    margin-left: 0;
+}
+
+.sect1mobile1 {
+    width: 70%;
+}
+
+.sect1mobile2 {
+    width: 30%;
+}
+
+.sect11 p {
+    font-size: 25px;
+}
+
+
+.wrapper {
+    max-width: 640px;
+    height: 1553px;
+    margin: 0 auto;
+}
+
+.top {
+    height: 393px;
+    background-image: url(../assets/backhead.png);
+}
+
+.header .main_container {
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.hlogo {
+    padding: 0 8px 0 2px;
+    height: 60px;
+    width: 30%;
+    margin:0;
+}
+
+.hlogo p {
+    margin: 0;
+}
+
+.hlogo_img {
+    width: 35px;
+}
+
+.hlogotext {
+    font-size: 25px;
+    display: block;
+}
+
+.hnavbar_container {
+    top: 0%;
+    right: 0%;
+    box-shadow: none;
+    width: 70%;
+    height: 60px;
+}
+
+.hnavbar ul {
+    height: 62px;
+    margin: 0;
+    justify-content: space-between;
+    width:100%;
+}
+
+.hnavbar ul li {
+    justify-content: center;
+}
+
+.hnavbar ul li a {
+    height: auto;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.hnavbar ul li a img {
+    height: 22px;
+    margin-left: 14px;
+}
+
+.carousel_left,
+.carousel_right,
+.carousel_text {
+    display: none;
+}
+
+.carousel_container .main_container {
+    width: 100%;
+    margin: 0;
+    height: 333px;
+}
+
+.carousel,
+.carousel_item {
+    width: 100%;
+    height: 100%;
+    padding-left: 0%;
+}
+
+.carousel_image1 {
+    background-size: 118%;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    height: 1118px;
+}
+
+.icon_area .main_container,
+.icon_area {
+    width: 100%;
+    height: 171px;
+    justify-content: space-between;
+}
+
+.icon_block {
+    width: 100%;
+    height: 171px;
+}
+
+.icon1 {
+    border: none;
+    height: 171px;
+}
+
+.icon1 a {
+    font-size: 19px;
+}
+
+.sect1container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 482px;
+}
+
+.sect1 .main_container,
+.sect1 {
+    width: 100%;
+    height: 482px;
+    justify-content: space-between;
+}
+
+.sect1date,
+.sect1scrol,
+.sect1name {
+    display: none;
+}
+
+.sect1mobile1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 245px;
+    width: 100%;
+}
+
+.sect11,
+.sect12 {
+    height: 230px;
+    margin: auto 5px;
+}
+
+.sect1button2,
+.sect1button3 {
+    display: none;
+}
+
+.sect1mobile2 {
+    display: flex;
+    background-color: #F5C507;
+    height: 234px;
+}
+
+.sect13 {
+    height: 230px;
+    margin: 0;
+    background: none;
+}
+
+.twitmessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.twitmessage ul li {
+    list-style-type: none;
+    background: url(../assets/sect1/Rectangle.png)no-repeat;
+    width: 294px;
+    height: 43px;
+}
+
+.twitmessage ul li p {
+    font-style: normal;
+    padding-left: 20px;
+    color:#8F8E8E;
+    font-family:ArialMT;
+    font-size:15px;
+}
+
+.twitsubmit .twittermessage {
+    position: absolute;
+    bottom:3%;
+    left:14%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 23px;
+    width: 275px;
+}
+
+.twitsubmit .submit{
+    position: absolute;
+    bottom: 3%;
+    left: 75%;
+    background-color: #E4A321;
+    border-radius: 10px;
+    height: 29px;
+    width: 76px;
+    color: white;
+}
+
+.sect2 .main_container,
+.sect2 {
+    width: 100%;
+    height: 465px;
+    justify-content: space-between;
+}
+
+.sect2ul {
+    display: none;
+}
+
+.sect2name {
+    font-size: 39px;
+    display: flex;
+    width: 85%;
+}
+
+.sect22 {
+    margin-bottom: 72px;
+}
+
+.pc {
+    width: 53%;
+}
+
+.ltop {
+    width: 23%;
+}
+
+.mobile {
+    width: 8%;
+}
+
+.footer .main_container,
+.footer {
+    width: 100%;
+    height: 42px;
+    justify-content: space-between;
+}
+
+.footertext {
+    font-size:29px;
+}
+
+.footerline {
+    display: none;
+}
+
+.footer .main_container {
+    justify-content: flex-start;
+}
+
+.footerlogo {
+    width: 6%;
+    margin-left: 8%;
+}
